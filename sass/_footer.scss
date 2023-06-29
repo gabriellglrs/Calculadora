@@ -1,8 +1,9 @@
-@import 'mixins';
+@import "mixins";
 .footer {
-    margin-top: 3.5rem ;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
     text-align: center;
-    h2{
+    h2 {
         font-size: 6.4rem;
         font-family: Sacramento, sans-serif;
         color: white;
@@ -13,56 +14,56 @@
         justify-content: center;
         align-items: center;
         gap: 34.3rem;
-        a{
+        a {
             font-size: 4.8rem;
             font-family: Sacramento, sans-serif;
             color: white;
             margin-top: 1.3rem;
-            &:hover{
+            &:hover {
                 color: #000000;
             }
         }
     }
-    @include responsivo(950px){
-        .flex{
+    @include responsivo(950px) {
+        .flex {
             flex-wrap: wrap;
             justify-content: space-around;
             flex-direction: row;
-            gap : 0;
-            a{
+            gap: 0;
+            a {
                 padding-right: 5rem;
             }
         }
     }
-    @include responsivo(600px){
-        h2{
+    @include responsivo(600px) {
+        h2 {
             font-size: 5rem;
         }
         gap: 1.5rem;
-        .flex{
-            a{
-               font-size: 3rem;
-               padding-right: 1.5rem;
+        .flex {
+            a {
+                font-size: 3rem;
+                padding-right: 1.5rem;
             }
         }
     }
-    @include responsivo(600px){
-        h2{
+    @include responsivo(600px) {
+        h2 {
             font-size: 4.5rem;
         }
-        .flex{
-            a{
-               font-size: 2.6rem;
+        .flex {
+            a {
+                font-size: 2.6rem;
             }
         }
     }
-    @include responsivo(500px){
-        h2{
+    @include responsivo(500px) {
+        h2 {
             font-size: 4.2rem;
         }
-        .flex{
-            a{
-               font-size: 2.6rem;
+        .flex {
+            a {
+                font-size: 2.6rem;
             }
         }
     }
