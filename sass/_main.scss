@@ -15,10 +15,11 @@
         input {
             margin-top: 7rem;
             margin-bottom: 7.2rem;
-            padding-left: 2rem;
+            padding-left: 1.2rem;
+            padding-right: 1.2rem;
             border-radius: 1rem;
             width: 100%;
-            height: 93px;
+            height: 9.3rem;
             font-size: 4.5rem;
             text-align: right;
             background-color: rgb(235, 235, 235);
@@ -36,7 +37,7 @@
                 max-width: 8rem;
                 height: 5.8rem;
                 border-radius: 0.5rem;
-                box-shadow: 0px 4px 5px 9px rgba(0, 0, 0, 0.25);
+                box-shadow: 0rem .4rem .5rem .9rem rgba(0, 0, 0, 0.25);
                 color: white;
                 transition: background-color 0.3s ease;
                 &:hover {
@@ -44,7 +45,7 @@
                 }
                 &:active {
                     background-color: rgb(10, 10, 10);
-                    transform: translateY(2px);
+                    transform: translateY(.2rem);
                     box-shadow: none;
                 }
             }
@@ -52,14 +53,14 @@
                 grid-column: 5/6;
                 grid-row: 2/5;
                 width: 100%;
-                max-width: 80px;
-                height: 200px;
+                max-width: 8rem;
+                height: 20rem;
             }
             .btn-0 {
                 grid-column: 1/3;
                 width: 100%;
-                max-width: 172px;
-                height: 58px;
+                max-width: 17.2rem;
+                height: 5.8rem;
             }
         }
     }
